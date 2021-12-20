@@ -1,40 +1,57 @@
-AlertOps Expert Guidance
+GDPR: What Is It, and What Does It Mean for Your DevOps Team?
 ========
 
- 
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+The European Union (EU) General Data Protection Regulation (GDPR) took effect May 25. Now, businesses that fail to comply with GDPR risk costly penalties – along with potential brand reputation damage and revenue losses.
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+GDPR is transforming the way businesses manage data, as well as the day-to-day operations of development and operations (DevOps) teams. To understand why this is the case, let’s consider three questions surrounding GDPR and what it means for today’s DevOps teams.
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+    What Is GDPR?
 
-Automate Processes
-====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+EU Parliament approved and adopted GDPR in April 2016, and the regulation was enacted to protect all EU residents against privacy and data breaches. Some of the key components of GDPR include:
 
-Clarity
-====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+    Breach Notification: Businesses are required to notify the public about a data breach within 72 hours of first becoming aware of the incident.
+    Right to Access: Businesses are required to provide EU residents with information about how they process residents’ personal data, where and for what purpose. Additionally, companies are required to provide copies of EU residents’ personal data in an electronic format upon request.
+    Right to Be Forgotten: Businesses are required to erase EU residents’ personal data and stop further dissemination of this information upon request.
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+GDPR applies to all EU companies, along with those that process the personal data of EU residents. It applies to both data controllers and processors, and public, private and hybrid clouds are not exempt from GDPR enforcement.
 
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+    What Happens If a Business Fails to Comply with GDPR? 
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+Businesses that violate GDPR can be fined up to 4% of their annual global turnover or €20 million (approximately $26.8 million) – whichever total is greater. GDPR stipulates the maximum fine is imposed on companies that do not have sufficient customer consent to process data or violate the regulation’s “privacy by design” guidelines.
 
-1 Red Canary 2021 Threat Detection Report
+GDPR takes a tiered approach to fines. For example, intentional GDPR violations are generally viewed more harshly than negligence errors. This means a business that illegally processes an EU resident’s personal data likely faces a larger fine than a company that fails to perform a privacy impact assessment in a timely fashion.
+
+    How Can a Business Maintain GDPR Compliance?
+
+Ultimately, a DevOps team plays an important role in a company’s ability to comply with GDPR. If a DevOps team applies web application security best practices to its everyday efforts, it could help a company avoid GDPR violations.
+
+SANS Institute offers a “Securing Web Applications Technology (SWAT) Checklist” to help DevOps teams neutralize security vulnerabilities before they escalate. The checklist emphasizes best practices in the following areas:
+
+    Error Handling and Logging: DevOps teams must log all data activities, store data logs securely and track all administrative activities.
+    Data Protection: Stringent password policies, encryption keys and other data security protocols and processes are paramount to safeguard sensitive business information.
+    Configuration and Operations: Business processes and systems must be set up to protect all data, at all times.
+    Authentication: Authentication measures must be deployed to minimize the risk of unauthorized access to sensitive information.
+    Session Management: Session tokens, timeouts and other session management tools must be used to protect business users against cyberattacks.
+    Input and Output Handling: DevOps teams must be able to track all inbound and outbound data activities.
+    Access Control: Business processes and systems must ensure only authorized users can access sensitive information.
+
+SANS Institute also provides the following security best practices for DevOps teams:
+
+    Continuous Integration: Build authentication, password management and other security measures into code.
+    Continuous Delivery: Incorporate automated security scanning into continuous delivery processes.
+    Continuous Deployment: Perform audits to track files viewed in production and encrypt confidential data in production.
+    Infrastructure as Code: Create code to manage a server’s infrastructure, configuration and environment.
+    Container Security: Allow isolated images with an application to be quickly installed and executed.
+
+GDPR may seem complicated, particularly for DevOps teams that are working diligently to maintain compliance. With an effective alert monitoring and tracking system, a DevOps team can simultaneously streamline its continuous integration and delivery (CI/CD) pipeline, simplify product development and reduce the risk of GDPR violations.
+
+An incident tracking system provides DevOps teams with instant access to on-call schedules and alerts via web or mobile apps, thereby enabling DevOps team members to quickly respond to notifications and stay in touch with one another until an incident is resolved. Plus, the system delivers pre-built and outbound integrations, and DevOps teams can standardize their alert notification flows and responses and view all alerts in a single location. DevOps teams also can use an alert monitoring system to create two-way integrations and workflows.
+
+When it comes to GDPR, there is no need to leave anything to chance. Thanks to an alert monitoring system, a DevOps team should have no trouble maintaining GDPR compliance. An alert tracking system may even help a DevOps team become more productive and efficient than ever before.
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/gdpr-devops-team/
 
 Read more:
 ====
